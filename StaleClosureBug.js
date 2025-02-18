@@ -1,0 +1,1 @@
+This error occurs when using the `useCallback` hook in React Native with a function that accesses state variables indirectly through a closure.  The closure might not update when the state changes, leading to stale closure values.
